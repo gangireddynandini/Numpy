@@ -1,0 +1,21 @@
+import numpy as np
+#arange
+y=np.arange(3,7)
+print(y)
+print(y.reshape(3,2))
+#zeros
+s=np.zeros(10,int)
+print(s)
+print(s.reshape(5,2))
+#ones
+u=np.ones((6,3),int)
+print(u)
+print(u.reshape(3,6))
+#full
+y=np.full(6,9)
+print(y)
+r=np.full((3,3),4)
+print(r)
+#identity
+t=np.identity(3,int)
+print(t)

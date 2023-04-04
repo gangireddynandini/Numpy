@@ -1,0 +1,12 @@
+import numpy as np
+a=([2,3,4,5,67,9])
+b=np.sort(a)
+print(b)
+
+v=np.array(['nandu','faruk','tiger'])
+print(np.sort(v))
+#2d array
+d=np.array([[2,34,5],[8,5,9]])
+print(np.sort(d))
+print(np.sort(d,axis=0))
+
